@@ -24,6 +24,7 @@
   </Networking>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:8888]/</WebUI>
+  <TemplateURL>https://github.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/blob/main/toastmasters-timer-overlay.xml</TemplateURL>
   <Banner>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.icon.png</Icon>
 </Container>
