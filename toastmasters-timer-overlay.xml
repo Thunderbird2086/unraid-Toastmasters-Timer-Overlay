@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Tools:Utilites</Category>
+  <Name>TM-Timer-Overlay</Name>
+  <Description>
+  This is a Dockerfile setup for Toastmastes Online Timer - https://github.com/rakusan2/Toastmasters-Timer-Overlay[br]
+  This run the latest Toastmasters Timer Overlay from master branch.[br]
+ </Description>
+  <Registry>https://hub.docker.com/r/thunderbird2086/toastmasters-timer-overlay/</Registry>
+  <Repository>thunderbird2086/toastmasters-timer-overlay</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8888</HostPort>
+        <ContainerPort>8888</ContainerPort>
+        <Protocol>tcp</Protocol>
+        <Name>HTTP Port</Name>
+      </Port>
+    </Publish>
+  </Networking>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:8888]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.icon.png</Icon>
+</Container>
