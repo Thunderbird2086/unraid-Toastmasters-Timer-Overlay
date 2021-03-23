@@ -8,7 +8,7 @@
   This run the latest Toastmasters Timer Overlay from master branch.[br]
  </Description>
   <Registry>https://hub.docker.com/r/thunderbird2086/toastmasters-timer-overlay/</Registry>
-  <Repository>thunderbird2086/toastmasters-timer-overlay:dev</Repository>
+  <Repository>thunderbird2086/toastmasters-timer-overlay</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -24,6 +24,6 @@
   </Networking>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:8888]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/dev/img/toastmasters.banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/dev/img/toastmasters.icon.png</Icon>
+  <Banner>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.icon.png</Icon>
 </Container>
