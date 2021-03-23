@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>Tools Utilites</Category>
-  <Name>tm-tIMER-overlay</Name>
+  <Name>TM-Timer-Overlay</Name>
   <Description>
   This is a Dockerfile setup for Toastmastes Online Timer - https://github.com/rakusan2/Toastmasters-Timer-Overlay[br]
   This run the latest Toastmasters Timer Overlay from master branch.[br]
