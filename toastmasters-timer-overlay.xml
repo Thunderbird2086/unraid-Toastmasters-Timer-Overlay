@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
-  <Category>Tools:Utilites</Category>
-  <Name>TM-Timer-Overlay</Name>
+  <Category>Tools Utilites</Category>
+  <Name>tm-tIMER-overlay</Name>
   <Description>
   This is a Dockerfile setup for Toastmastes Online Timer - https://github.com/rakusan2/Toastmasters-Timer-Overlay[br]
   This run the latest Toastmasters Timer Overlay from master branch.[br]
@@ -24,7 +24,4 @@
   </Networking>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:8888]/</WebUI>
-  <TemplateURL>https://github.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/blob/main/toastmasters-timer-overlay.xml</TemplateURL>
-  <Banner>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/Thunderbird2086/unraid-Toastmasters-Timer-Overlay/main/img/toastmasters.icon.png</Icon>
 </Container>
